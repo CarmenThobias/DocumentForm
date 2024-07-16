@@ -1,0 +1,43 @@
+/* Add this to your public/css/app.css */
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #071953 !important; 
+    color: #ffffff; 
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: rgb(0, 29, 109); /* NUST blue color */
+    color: #004103;
+}
+
+.btn-primary:hover {
+    background-color: #002e5f; /* Darker blue */
+    border-color: #002e5f;
+}
+
+.list-group-item {
+    border: 1px solid #8d8d8d;
+    padding: 10px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.info {
+    border-color: #e4f0ff;
+    color: #002e5f;
+  }
+  
+  .info:hover {
+    background: #002e5f;;
+    color: white;
+  }
