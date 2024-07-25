@@ -9,7 +9,6 @@
     <link href="C:/xampp/htdocs/documentManagementForm/resources/css/app.css" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <style>
@@ -19,13 +18,13 @@
         }
     </style>
 </head>
-<body style="background-color:#e4f0ff;" >
+<body style="background-color:#e4e6ff;" >
     <nav class="navbar  navbar-expand-lg navbar-dark" style="background-color:#071953;">
         <!-- <a class="navbar-brand" href="#" src="/images/ee.svg">
             <img src="resources/images/ee.svg"  width="300" height="60" alt="">
         </a> -->
         <a class="navbar-brand" href="#">
-        Document Upload
+        Form Upload
         </a>
         <title class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,5 +40,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    
 </body>
 </html>

@@ -7,17 +7,22 @@ use Illuminate\Database\Eloquent\Model;
 
 class Document extends Model
 {
-    use HasFactory;
+    protected $fillable = ['title', 'category_id', 'role_id', 'file_path', 'upload_date'];
 
-    protected $fillable = ['title', 'category_id', 'file_path','upload_date'];
-
-    protected $casts = [
-        'upload_date' => 'date',  // Ensure the field is cast to a date
-    ];
-
-    // Define the relationship to Category
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+    protected $casts = [
+        'upload_date' => 'datetime',
+    ];
+    public function uploader()
+    {
+        return $this->belongsTo(User::class, 'uploaded_by');
     }
 }
