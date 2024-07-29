@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-<body style="background-color:#e4e6ff;" >
+<body style="background-color:#e2e5ec;" >
     <nav class="navbar  navbar-expand-lg navbar-dark" style="background-color:#1b2c5d;">
         <!-- <a class="navbar-brand" href="#" src="/images/ee.svg">
             <img src="resources/images/ee.svg"  width="300" height="60" alt="">
