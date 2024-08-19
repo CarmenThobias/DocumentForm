@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Document extends Model
 {
-    protected $fillable = ['title', 'category_id','subcategory_id', 'role_id', 'file_path', 'upload_date'];
+    protected $fillable = ['title', 'category_id','subcategory_id', 'role_id', 'file_path', 'file_path_doc','file_path_pdf', 'upload_date', 'original_filename_doc', 'original_filename_pdf',];
 
     public function category()
     {
@@ -28,5 +28,15 @@ class Document extends Model
     public function uploader()
     {
         return $this->belongsTo(User::class, 'uploaded_by');
+        
+    }
+    public function getPdfUrlAttribute()
+    {
+        return $this->file_path_pdf ? asset('storage/' . $this->file_path_pdf) : null;
+    }
+
+    public function getDocUrlAttribute()
+    {
+        return $this->file_path_doc ? asset('storage/' . $this->file_path_doc) : null;
     }
 }
