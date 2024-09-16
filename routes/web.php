@@ -5,6 +5,7 @@ use App\Http\Controllers\DocumentController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SubcategoryController;
+use App\Http\Controllers\FaqController;
 
 
 // FormController routes
@@ -25,6 +26,13 @@ Route::delete('/categories/{id}', [CategoryController::class, 'destroy'])->name(
 Route::get('/subcategories/edit/{id}', [SubcategoryController::class, 'edit'])->name('subcategories.edit');
 Route::put('/subcategories/update/{id}', [SubcategoryController::class, 'update'])->name('subcategories.update');
 Route::delete('/subcategories/{id}', [SubcategoryController::class, 'destroy'])->name('subcategories.destroy');
+Route::get('/faq', [FaqController::class,'index'])->name('faq.index');
+Route::get('/faq/hr', [FaqController::class, 'showHR'])->name('faq.hr');
+Route::get('/faq/it', [FaqController::class, 'showIT'])->name('faq.it');
+Route::get('/faq/hs', [FaqController::class, 'showHS'])->name('faq.hs');
+Route::get('/faq/ln', [FaqController::class, 'showLN'])->name('faq.ln');
+Route::get('/faq/er', [FaqController::class, 'showER'])->name('faq.er');
+Route::get('/faq/ut', [FaqController::class, 'showUT'])->name('faq.ut');
 
 
 

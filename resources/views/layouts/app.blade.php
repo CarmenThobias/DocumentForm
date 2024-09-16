@@ -19,18 +19,18 @@
     </style>
 </head>
 <body style="background-color:#e2e5ec;" >
+<header class="header">
+        @yield('header')
+    </header>
     <nav class="navbar  navbar-expand-lg navbar-dark" style="background-color:#1b2c5d;">
         <!-- <a class="navbar-brand" href="#" src="/images/ee.svg">
             <img src="resources/images/ee.svg"  width="300" height="60" alt="">
         </a> -->
-        <a class="navbar-brand" href="#">
-        Form Upload
-        </a>
+        
         <title class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
     </title>
     </nav>
-   
     <div class="container" >
         @yield('content')
         @yield('scripts')
