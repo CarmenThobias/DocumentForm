@@ -9,12 +9,15 @@
 <div class="container">
     <div class="row">
 
-        <div class="col-md-12 mb-4 d-flex justify-content-between align-items-center">
+        <div class="col-md-12 mb-4 d-flex  align-items-center">
             <div class="search-bar" style="width: 30%;">
                 <input type="text" id="faqSearch" class="form-control" placeholder="Search FAQs...">
+                
             </div>
-        
+            <div>
+            <button type="submit" class="btn btn-primary btn-m col-md-12 mb-6" style="background-color:#1b2c5d; font-size: 0.875rem;">Search</button>
         </div>
+</div>
 
         <!-- FAQ Panel 1 -->
         <div class="col-md-12 mb-4 d-flex">
@@ -24,12 +27,12 @@
                 <p class="panel-description">Human Resources related questions.</p>
                 <!-- FAQs related to HR can be listed here -->
                 <ul class="faq-list ">
-                    <li><a href="#"  data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
+                    <li><a href="#"  data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy rege work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
                     <li><a href="#" data-titles="Are staff members permitted to work for another entity while on special leave without pay (SLWOP)?, How do I apply for Special Leave?, I am a staff member on a Temporary Appointment – can I request Special Leave?" data-contents="As outlined in staff rule 5.3 (a)(i) Special Leave without Pay (SLWOP) may be granted at the request of a staff member holding a fixed-term or continuing appointment. It is usually envisaged for advanced study or research in the interest of the United Nations. to meet personal obligations such as for child-care in cases of extended illness or for other important reasons and for such period of time as the Secretary-General may prescribe. Requests for SLWOP are reviewed on their merits and approved on the basis of the interest of the Organization. If you are interested in taking SLWOP please approach your Executive Office., Except for sabbatical leave staff members are required to address a memorandum through their Chief to their Director/ASG for approval. The approved memorandum is then forwarded to the Executive Office for administrative action. Depending on the request it may be further reviewed by OHR., Staff members holding temporary appointments may be granted special leave on an exceptional basis for compelling reasons subject to approval from the Secretary-General. " class="faq-link" style="color: #1b2c5d;">Leave</a></li>
-                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
+                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
                     <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">How do I apply for parental leave?</a></li>
-                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
-                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">How do I apply for parental leave?</a></li>
+                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the HR policy regarding remote work. How do you go about it mmmmmmmmwe we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">What is the HR policy for remote work?</a></li>
+                    <li><a href="#" data-titles="HR Policy for Remote Work" data-contents="This section describes the  remote work. How do you go about it we we we we we we w we we we we we we we we w ee w ewwwwwwwwww ewe wew eeweeee ewwwwwwwww ee   eeeeeeeeewwwwww wwwwwwwwwwwwwwwweeeeeeeeeee" class="faq-link" style="color: #1b2c5d;">How do I apply for parental leave?</a></li>
                     <!-- Add more FAQ links here -->
                 </ul>
             </div>
@@ -61,13 +64,20 @@
 <script>
     // Script for FAQ Search
     document.getElementById('faqSearch').addEventListener('keyup', function() {
-        let filter = this.value.toUpperCase();
-        let panels = document.getElementsByClassName('faq-panel');
+        let filter = this.value.toUpperCase(); // Get the input and convert it to uppercase
+        let faqLinks = document.querySelectorAll('.faq-link'); // Get all FAQ links
         
-        Array.from(panels).forEach(panel => {
-            let titles = panel.querySelectorAll('.panel-title, .panel-description, .faq-list a');
-            let showPanel = Array.from(titles).some(title => title.innerText.toUpperCase().indexOf(filter) > -1);
-            panel.style.display = showPanel ? "" : "none";
+        faqLinks.forEach(link => {
+            let linkText = link.innerText.toUpperCase(); // Get link text
+            let title = link.getAttribute('data-titles').toUpperCase(); // Get data-title attribute
+            let content = link.getAttribute('data-contents').toUpperCase(); // Get data-contents attribute
+            
+            // Show or hide the FAQ link based on matching text in any of the attributes
+            if (linkText.includes(filter) || title.includes(filter) || content.includes(filter)) {
+                link.closest('li').style.display = ''; // Show link if match is found
+            } else {
+                link.closest('li').style.display = 'none'; // Hide link if no match is found
+            }
         });
     });
 

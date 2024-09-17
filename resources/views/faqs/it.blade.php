@@ -59,15 +59,22 @@
 
 @section('scripts')
 <script>
-    // Script for FAQ Search
-    document.getElementById('faqSearch').addEventListener('keyup', function() {
-        let filter = this.value.toUpperCase();
-        let panels = document.getElementsByClassName('faq-panel');
+     // Script for FAQ Search
+     document.getElementById('faqSearch').addEventListener('keyup', function() {
+        let filter = this.value.toUpperCase(); // Get the input and convert it to uppercase
+        let faqLinks = document.querySelectorAll('.faq-link'); // Get all FAQ links
         
-        Array.from(panels).forEach(panel => {
-            let titles = panel.querySelectorAll('.panel-title, .panel-description, .faq-list a');
-            let showPanel = Array.from(titles).some(title => title.innerText.toUpperCase().indexOf(filter) > -1);
-            panel.style.display = showPanel ? "" : "none";
+        faqLinks.forEach(link => {
+            let linkText = link.innerText.toUpperCase(); // Get link text
+            let title = link.getAttribute('data-titles').toUpperCase(); // Get data-title attribute
+            let content = link.getAttribute('data-contents').toUpperCase(); // Get data-contents attribute
+            
+            // Show or hide the FAQ link based on matching text in any of the attributes
+            if (linkText.includes(filter) || title.includes(filter) || content.includes(filter)) {
+                link.closest('li').style.display = ''; // Show link if match is found
+            } else {
+                link.closest('li').style.display = 'none'; // Hide link if no match is found
+            }
         });
     });
 
