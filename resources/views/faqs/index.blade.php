@@ -3,8 +3,7 @@
         @yield('header')
         
         <h1 style="color:white;">Frequently Asked Questions</h1>
-        <div class="search-bar col-md-6 mb-3 d-flex justify-content-between center;" style="width: 50%; margin: 0 auto;">
-        <input type="text" id="faqSearch" class="form-control" placeholder="Search FAQs...">
+        
     </div>
 
     </header>
