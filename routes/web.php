@@ -33,6 +33,13 @@ Route::get('/faq/hs', [FaqController::class, 'showHS'])->name('faq.hs');
 Route::get('/faq/ln', [FaqController::class, 'showLN'])->name('faq.ln');
 Route::get('/faq/er', [FaqController::class, 'showER'])->name('faq.er');
 Route::get('/faq/ut', [FaqController::class, 'showUT'])->name('faq.ut');
+Route::get('/faqform', [FaqController::class, 'faqform'])->name('faq.form');
+Route::post('/faq/store', [FaqController::class, 'store'])->name('faq.store');
+Route::get('/faq/{id}', [FaqController::class, 'show'])->name('faq.show');
+Route::get('/faq/{subjectSlug}', [FaqController::class, 'showSubject'])->name('faq.subject');
+Route::get('/faq/create', [FaqController::class, 'create'])->name('faq.create');
+
+
 
 
 
